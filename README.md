@@ -17,7 +17,7 @@ health of the developers who have to deal with this things :)
 
 ---
 
-Esta gema se concivió como una ayuda para la automatización de extracción de información de la página y servicios web que provee
+Esta gema se concibió como una ayuda para la automatización de extracción de información de la página y servicios web que provee
 el [Banco de México](http://www.banxico.org.mx).
 
 
