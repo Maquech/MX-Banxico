@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactData
+  xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v1_0/message"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.SDMX.org/resources/SDMXML/schemas/v1_0/message http://www.banxico.org.mx/structure/key_families/dgie/sie/series/compact BANXICO_DGIE_SIE_Compact.xsd http://www.SDMX.org/resources/SDMXML/schemas/v1_0/compact SDMXCompactData.xsd"
+  xmlns:bm="http://www.banxico.org.mx/structure/key_families/dgie/sie/series/compact"
+  xmlns:compact="http://www.SDMX.org/resources/SDMXML/schemas/v1_0/compact">
+  <Header>
+    <ID>DATOS_HIST_BANXICO</ID>
+    <Test>false</Test>
+    <Truncated>false</Truncated>
+    <Name xml:lang="sp">Datos hist&#243;ricos de Banco de M&#233;xico</Name>
+    <Prepared>2016-05-12 05:34:19</Prepared>
+    <Sender id="BANXICO">
+      <Name xml:lang="sp">Banco de M&#233;xico</Name>
+      <Contact>
+        <Name xml:lang="sp">Direcci&#243;n General de Investigaci&#243;n Econ&#243;mica</Name>
+      </Contact>
+    </Sender>
+    <DataSetAction>Update</DataSetAction>
+    <Extracted>2016-05-12 05:34:19</Extracted>
+  </Header>
+  <bm:DataSet>
+    <bm:SiblingGroup BANXICO_FREQ="Dia" TIME_FORMAT="P1D"/>
+<bm:Series TITULO="Tipo de cambio                                          Pesos por d&#243;lar E.U.A. Tipo de cambio para solventar obligaciones denominadas en moneda extranjera Fecha de determinaci&#243;n (FIX)" IDSERIE="SF43718" BANXICO_FREQ="Dia" BANXICO_FIGURE_TYPE="TipoCambio"  BANXICO_UNIT_TYPE="PesoxDoll">
+    </bm:Series>
+  </bm:DataSet>
+</CompactData>

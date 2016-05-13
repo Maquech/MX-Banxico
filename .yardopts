@@ -1,0 +1,9 @@
+--title 'MX-Banxico'
+--output-dir ./doc
+--markup-provider redcarpet
+--markup markdown
+--protected --private
+--readme README.md
+lib/**/*.rb - LICENSE.txt REFERENCIAS.md CHANGELOG.md
+
+

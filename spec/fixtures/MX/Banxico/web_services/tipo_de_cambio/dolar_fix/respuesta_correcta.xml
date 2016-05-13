@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <soapenv:Header>
+    <X-OPNET-Transaction-Trace:X-OPNET-Transaction-Trace xmlns:X-OPNET-Transaction-Trace="http://opnet.com" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" soapenv:actor="http://schemas.xmlsoap.org/soap/actor/next" soapenv:mustUnderstand="0" xsi:type="soapenc:string">pid=3864,requestid=cef30cf5-bb76-4c85-8c5a-62a81a751632</X-OPNET-Transaction-Trace:X-OPNET-Transaction-Trace>
+  </soapenv:Header>
+  <soapenv:Body>
+    <ns1:tiposDeCambioBanxicoResponse xmlns:ns1="http://ws.dgie.banxico.org.mx" soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+      <result xsi:type="xsd:string">&lt;?xml version="1.0" encoding="ISO-8859-1"?&gt;
+&lt;CompactData xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v1_0/message"
+xmlns:bm="http://www.banxico.org.mx/structure/key_families/dgie/sie/series/compact"
+xmlns:compact="http://www.SDMX.org/resources/SDMXML/schemas/v1_0/compact"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.SDMX.org/resources/SDMXML/schemas/v1_0/message SDMXMessage.xsd
+http://www.banxico.org.mx/structure/key_families/dgie/sie/series/compact BANXICO_DGIE_SIE_Compact.xsd
+http://www.SDMX.org/resources/SDMXML/schemas/v1_0/compact SDMXCompactData.xsd" &gt;
+	&lt;Header&gt;
+		&lt;ID&gt;TIPOSDECAMBIO&lt;/ID&gt;
+		&lt;Test&gt;false&lt;/Test&gt;
+		&lt;Truncated&gt;false&lt;/Truncated&gt;
+		&lt;Name xml:lang="sp"&gt;Tipos de Cambio&lt;/Name&gt;
+		&lt;Prepared&gt;2016-05-11 11:17:01.199&lt;/Prepared&gt;
+		&lt;Sender id="BANXICO"&gt;
+			&lt;Name xml:lang="sp"&gt;Banco de México&lt;/Name&gt;
+			&lt;Contact&gt;
+			&lt;Name xml:lang="sp"&gt;Subgerencia de Desarrollo de Sistemas&lt;/Name&gt;
+			&lt;Telephone&gt;(01 55)52372678&lt;/Telephone&gt;
+			&lt;/Contact&gt;
+		&lt;/Sender&gt;
+		&lt;DataSetAction&gt;Update&lt;/DataSetAction&gt;
+		&lt;Extracted&gt;2016-05-11 11:17:01.199&lt;/Extracted&gt;
+	&lt;/Header&gt;
+	&lt;bm:DataSet&gt;
+		&lt;bm:SiblingGroup BANXICO_FREQ="Dia" TIME_FORMAT="P1D"/&gt;
+		&lt;bm:Series TITULO="Tipo de cambio                                          Pesos por dólar E.U.A. Tipo de cambio para solventar obligaciones denominadas en moneda extranjera Fecha de determinación (FIX)" IDSERIE="SF43718" BANXICO_FREQ="Dia" BANXICO_FIGURE_TYPE="TipoCambio" BANXICO_UNIT_TYPE="PesoxDoll"&gt;
+			&lt;bm:Obs TIME_PERIOD="2016-05-10" OBS_VALUE="18.0205"/&gt;
+		&lt;/bm:Series&gt;
+	&lt;/bm:DataSet&gt;
+&lt;/CompactData&gt;
+</result>
+    </ns1:tiposDeCambioBanxicoResponse>
+  </soapenv:Body>
+</soapenv:Envelope>

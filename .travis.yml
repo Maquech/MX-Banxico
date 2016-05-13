@@ -1,0 +1,12 @@
+language: ruby
+
+before_install:
+  - gem install bundler -v '>= 1.12'
+
+rvm:
+  - ruby-head
+
+addons:
+  code_climate:
+    repo_token:
+      secure: "V+kAHFHYVxk3INQ92tjdHWzpkgpec6Hi3cZmI3kfirh12c8BuQsJy187ySjDuzyq6uPF4+WXUBUBoErZBi3SRI0u+qGavpjVEf6onlrykwfBHutYWMjkFybNZ03wKKNK+kSOLWrxOsdrjhFsnZ1SffliaIzxbT+DL2mWpiWkUBQmsBVwjKNpXBP5UowFnbwnaQpAdb7F9diGA83IcBpFueWx+q9ER+ekvNiGs30FmghJVsSveo7VVcWk+Tu8tPsXFwR2b9J3QZ1Ik4alldzVHWNv+O+a75WsJkpXV6eA+CojJ/S8HlhppN3yTUSIxd/fs05QEB+uM+1IsJ2I6IKJ1XsD9KG10kdUCUUL+tr8svfw5pdeqgouEiz4VbrN5wpt869OJznHsZIwQbMmJ3xtEcvD+v1ii260T3wfOFonjCBZOWNvru1xyFwDgoB4UJ2ucbFvKezwtnV5tPcGJqdEVfgM6NopwTKwcs95DRCkRDqB4prH3qGdu0ouu9i+b3c8JnUrny5pr+w/HTizL5lY5uiDIxJdQ5RiAoqMVGIdca4dWkWm+LvUiSCOam2Qf7loGnUcEtk+61BISzYQe7lBqyEMiKrU2b/Lp4mahvI/Q+UpPnsbVfCn5ecMMN4prnmKYVZDdrmgR0t1vEBC4+fy4pJClIOT51gLknYaiwz39dE="
