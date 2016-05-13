@@ -15,9 +15,9 @@ Gem::Specification.new do |spec|
   
   spec.required_ruby_version  = '>= 2.0'
   
-  spec.add_dependency 'nokogiri'
-  spec.add_dependency 'httparty'
-  spec.add_dependency 'savon'
+  spec.add_dependency 'nokogiri', '~> 1.6'
+  spec.add_dependency 'httparty', '~> 0.13'
+  spec.add_dependency 'savon', '~> 2.11'
   
   spec.files         = `git ls-files`.split("\n")
   spec.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
