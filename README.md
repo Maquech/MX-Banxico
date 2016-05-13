@@ -1,7 +1,7 @@
 # MX::Banxico
 
 
-[![Gem Version](https://badge.fury.io/rb/MX-Banxico.svg)](http://badge.fury.io/rb/MX-Banxico) [![Build Status](https://travis-ci.org/Maquech/MX-Banxico.svg?branch=master)](https://travis-ci.org/Maquech/MX-Banxico) [![Code Climate](https://codeclimate.com/github/Maquech/MX-Banxico/badges/gpa.svg)](https://codeclimate.com/github/Maquech/MX-Banxico) [![Test Coverage](https://codeclimate.com/github/Maquech/MX-Banxico/badges/coverage.svg)](https://codeclimate.com/github/Maquech/MX-Banxico/coverage)
+[![Gem Version](https://badge.fury.io/rb/MX-Banxico.png)](https://badge.fury.io/rb/MX-Banxico) [![Build Status](https://travis-ci.org/Maquech/MX-Banxico.svg?branch=master)](https://travis-ci.org/Maquech/MX-Banxico) [![Code Climate](https://codeclimate.com/github/Maquech/MX-Banxico/badges/gpa.svg)](https://codeclimate.com/github/Maquech/MX-Banxico) [![Test Coverage](https://codeclimate.com/github/Maquech/MX-Banxico/badges/coverage.svg)](https://codeclimate.com/github/Maquech/MX-Banxico/coverage)
 
 
 
