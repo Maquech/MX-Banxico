@@ -78,9 +78,9 @@ Las únicas dependencias son:
 
 ## Usage / Uso
 
-El Banco de México (también conocido como Banxico) maneja información de UDIS (Unidades de inversión), tipo de cambio, tasas de interés y reservas internacionles en uno de sus [servicios web] (http://www.banxico.org.mx/DgieWSWeb/DgieWS?WSDL). También, en su sitio web, tienen una [herramienta](http://www.banxico.org.mx/SieInternet/consultarDirectorioInternetAction.do?accion=consultarCuadro&idCuadro=CF102&sector=6&locale=es) para consultar la información histórica de diversos indicadores (o series como ellos les llaman).
+El Banco de México (también conocido como Banxico) maneja información de UDIS (Unidades de inversión), tipo de cambio, tasas de interés y reservas internacionales en uno de sus [servicios web] (http://www.banxico.org.mx/DgieWSWeb/DgieWS?WSDL). También, en su sitio web, tienen una [herramienta](http://www.banxico.org.mx/SieInternet/consultarDirectorioInternetAction.do?accion=consultarCuadro&idCuadro=CF102&sector=6&locale=es) para consultar la información histórica de diversos indicadores (o series como ellos les llaman).
 
-Ahora, la biblioteca (sí: _library -> biblioteca_, _bookstore -> librería_) está dividida en tres partes, cada una seperada por un espacio de nombres (_namespace_) para poder distinguir los elementos con los que se está trabajando: {MX::Banxico}, {MX::Banxico::Historico} y {MX::Banxico::WebServices}.
+Ahora, la biblioteca (sí: _library -> biblioteca_, _bookstore -> librería_) está dividida en tres partes, cada una separada por un espacio de nombres (_namespace_) para poder distinguir los elementos con los que se está trabajando: {MX::Banxico}, {MX::Banxico::Historico} y {MX::Banxico::WebServices}.
 
 #### Ejemplos:
 
