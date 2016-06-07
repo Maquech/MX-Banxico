@@ -29,7 +29,7 @@ Este proyecto no está patrocinado de ninguna forma por el gobierno mexicano. Es
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'mx-banxico'
+gem 'MX-Banxico'
 ```
 
 And then execute:
@@ -38,14 +38,14 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install mx-banxico
+    $ gem install MX-Banxico
 
 ---
 
 Agrega esta línea al archivo Gemfile de tu aplicación:
 
 ```ruby
-gem 'mx-banxico'
+gem 'MX-Banxico'
 ```
 
 Luego ejecuta:
@@ -54,7 +54,7 @@ Luego ejecuta:
 
 O instálalo tu mismo usando:
 
-    $ gem install mx-banxico
+    $ gem install MX-Banxico
 
 
 ## Dependencies / Dependencias
@@ -97,7 +97,7 @@ Por el momento, sólo están las clases para trabajar con el tipo de cambio :'( 
 
 ## Docs
 
-Check the [online documentation](http://http://www.rubydoc.info/gems/MX-Banxico/1.0) or generate it using YARD with:
+Check the [online documentation](http://www.rubydoc.info/gems/MX-Banxico) or generate it using YARD with:
 
     $ bundle exec yard server --port 8828 --reload
 
@@ -105,7 +105,7 @@ Also, check the [references](REFERENCIAS.md).
 
 ---
 
-Consulta la [documentación en línea](http://http://www.rubydoc.info/gems/MX-Banxico/1.0) o genera la documentación con YARD: 
+Consulta la [documentación en línea](http://www.rubydoc.info/gems/MX-Banxico) o genera la documentación con YARD: 
 
     $ bundle exec yard server --port 8828 --reload
 
